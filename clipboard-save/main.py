@@ -22,7 +22,8 @@ def setFlag(prevText):
 	return flag
 
 def showHelp():
-	print("This is going to be the help")
+	print("This is going to be the help function")
+	print("This is not implemented yet")
 
 def combine():
 	global content
@@ -63,7 +64,6 @@ def getClipboardContent(quick=False):
 				text = getText()
 				if text == '':
 					pass
-					# print("No text in clipboard")
 				else:
 					content.append(text)
 					flag = False
