@@ -34,7 +34,7 @@ def combine():
 	print('[+] Combined text copied to clipboard\n')
 
 def selectiveCombine():
-	selection = input('>>>>>> ')
+	selection = input('>>>')
 	selectionData = list(map(int, selection.split()))
 	global content
 	text = ''
